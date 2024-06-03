@@ -12,10 +12,10 @@ function App() {
   const [pointsAmounttoClaim,setpointsAmounttoClaim] = useState(null)
   const [pointsAmounttoSwap,setpointsAmounttoSwap] = useState(null)
   console.log(name)
-  const pointAddress ="0x5FbDB2315678afecb367f032d93F642f64180aa3";
-  const vaultAddress ="0xa16E02E87b7454126E5E10d957A927A7F5B5d2be";
-  const worldcoin ="0x0165878A594ca255338adfa4d48449f69242Eb8F"
-  const rpc =`https://opt-sepolia.g.alchemy.com/v2/fw6todGL-HqWdvvhbGrx_nXxROeQQIth`
+  const pointAddress ="0x33dE6Ee591FdE2F1c1A8f88d5abbc0614b159A94";
+  const vaultAddress ="0x2abbC2f8A215aFc421c8EB155E6D72B96471F1EF";
+  const worldcoin ="0x3b41b9a6ebf2A126fEECaFa248500140c61d3c91"
+  const rpc =`https://eth-sepolia.g.alchemy.com/v2/vj_t0Vu0E8yFooxHPcCM9SZDFXT8EG55`
   const provider = new ethers.providers.JsonRpcProvider(rpc);
   const signer = new ethers.Wallet(privateKey, provider);
   const pointsContract = () => new ethers.Contract(pointAddress, PointsABI, provider)
