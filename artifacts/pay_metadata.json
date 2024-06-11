@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "count",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "update",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"testpaymaster.sol": "pay"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"testpaymaster.sol": {
+			"keccak256": "0xd17b0621506eb85a5ab933c13fd9b125fa82a42771ba2f34537b2dc999ff023b",
+			"urls": [
+				"bzz-raw://2a222542c3d1e5e47a70a336212a048886d14c538cc5e57e793ffa03ee44139e",
+				"dweb:/ipfs/QmXS5F7YKuW7N7JpZ2PDDh6fDwdLfvtQjSNQi7v3G8cugG"
+			]
+		}
+	},
+	"version": 1
+}

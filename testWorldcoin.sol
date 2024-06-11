@@ -10,3 +10,11 @@ contract worldcoin is ERC20{
     }
     
 }
+contract usdt is ERC20{
+
+ 
+    constructor()ERC20("usdc","usdc"){
+       _mint(msg.sender,10000000000*10**18);
+    }
+    
+}
