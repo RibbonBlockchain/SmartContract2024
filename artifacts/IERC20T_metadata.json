@@ -225,11 +225,11 @@
 			]
 		},
 		"ribbonVault.sol": {
-			"keccak256": "0x4c3789d3780bd239312e6654dbc7c8788d042604612306f18a44725a8f3acea8",
+			"keccak256": "0x38e66dafdd707daf2c110fd94c62201fcc5303a3cc4ad71668b3f13234cde6a4",
 			"license": "GPL-2.0-or-later",
 			"urls": [
-				"bzz-raw://e93e2764c129d423582b1f61fa703801986a74a71f2745bd49c7cbb8bdf0f91e",
-				"dweb:/ipfs/QmeX3qKQbig7TXDfCumqjbSKQsWMs4aRbBc2cdtmTgb6fy"
+				"bzz-raw://0d0b72ccc89f9bd8313c4e98979709c889e06febca9ff8bda331913adf829cdb",
+				"dweb:/ipfs/QmfGCZu6hbMLpSuVcMqmZ9xzxjm5A9HkkhVUX6skVT1gmU"
 			]
 		}
 	},

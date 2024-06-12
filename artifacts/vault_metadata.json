@@ -753,24 +753,79 @@
 			},
 			"kind": "dev",
 			"methods": {
+				"checkAmountToRecive(uint256)": {
+					"details": "used to calcultae amount of the worldcoin token or other payment token to recieve at a specific rate specified"
+				},
+				"claimPointsAdmin(address,uint256)": {
+					"details": "only approved admin  use this function  to claim points token for each users"
+				},
+				"constructor": {
+					"params": {
+						"name": "the name of the vault",
+						"owner": "the admin of the contract responsible for offchain signing",
+						"paymentAddress": "the contract address that the points would be swaped into",
+						"pointsaddress": "the address of the point contract, the offchain virtual points is converted to the points on chain"
+					}
+				},
 				"eip712Domain()": {
 					"details": "See {IERC-5267}."
+				},
+				"freezeContract(bool)": {
+					"details": "used to stop the permit functions to claim point and and swap points to worldcoin token or other payment coin "
 				},
 				"owner()": {
 					"details": "Returns the address of the current owner."
 				},
+				"permitClaimPoints(address,uint256,uint256,uint8,bytes32,bytes32)": {
+					"details": "admin signs a user ,amount ,deadline  ofchain and pass the signature  to the user to claim points ,but this is done automatically "
+				},
+				"permitSwapToPaymentCoin(address,uint256,uint256,uint8,bytes32,bytes32)": {
+					"details": "admin signs a user ,amount ,deadline  ofchain and pass the signature  to the user to swap points to worldcoin or payment coin ,but this is done automatically "
+				},
 				"renounceOwnership()": {
 					"details": "Leaves the contract without owner. It will not be possible to call `onlyOwner` functions. Can only be called by the current owner. NOTE: Renouncing ownership will leave the contract without an owner, thereby disabling any functionality that is only available to the owner."
 				},
+				"setAdmin(address)": {
+					"details": "update padmin address"
+				},
+				"setApprovedAdmin(address[],bool)": {
+					"details": "used to set the vault admins approved to claim points for users  "
+				},
+				"setMinPointsToSWap(uint256)": {
+					"details": "set minimum points to swap without decimal"
+				},
+				"setPaymentDepositfees(uint256)": {
+					"details": "set depositFee  without decimal "
+				},
+				"setRate(uint256)": {
+					"details": "set _rate  without decimal "
+				},
+				"setWithdrawalFee(uint256)": {
+					"details": "set withdrawalFee  without decimal "
+				},
+				"setpaymentTokenAndpoints(address,address)": {
+					"details": "update points contract address and worldcoin token or other payment contract address"
+				},
+				"swapToPaymentCoinAdmin(address,uint256)": {
+					"details": "only approved admin  use this function  to swap points token to worldcoin or payment token suppied for each users"
+				},
 				"transferOwnership(address)": {
 					"details": "Transfers ownership of the contract to a new account (`newOwner`). Can only be called by the current owner."
+				},
+				"withdrawfees(address)": {
+					"details": "used withdraw fees when a new deposit is address into the contract the computation allows fees to be deducted when new deposit is added  when no new deposit is added and this function is called it will revert"
 				}
 			},
+			"title": "RibbonVault",
 			"version": 1
 		},
 		"userdoc": {
 			"kind": "user",
-			"methods": {},
+			"methods": {
+				"setMinPointsToSWap(uint256)": {
+					"notice": "18 decimal was hardcoded because the points contract is 18 decimal"
+				}
+			},
 			"version": 1
 		}
 	},
@@ -879,11 +934,11 @@
 			]
 		},
 		"ribbonVault.sol": {
-			"keccak256": "0x4c3789d3780bd239312e6654dbc7c8788d042604612306f18a44725a8f3acea8",
+			"keccak256": "0x38e66dafdd707daf2c110fd94c62201fcc5303a3cc4ad71668b3f13234cde6a4",
 			"license": "GPL-2.0-or-later",
 			"urls": [
-				"bzz-raw://e93e2764c129d423582b1f61fa703801986a74a71f2745bd49c7cbb8bdf0f91e",
-				"dweb:/ipfs/QmeX3qKQbig7TXDfCumqjbSKQsWMs4aRbBc2cdtmTgb6fy"
+				"bzz-raw://0d0b72ccc89f9bd8313c4e98979709c889e06febca9ff8bda331913adf829cdb",
+				"dweb:/ipfs/QmfGCZu6hbMLpSuVcMqmZ9xzxjm5A9HkkhVUX6skVT1gmU"
 			]
 		}
 	},

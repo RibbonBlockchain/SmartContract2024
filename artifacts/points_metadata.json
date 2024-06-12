@@ -837,19 +837,19 @@
 			]
 		},
 		"points.sol": {
-			"keccak256": "0x5b2673b67fb3cac02768f59a90314cdcaf2a4c40a19deb94d50279d2cea9d76f",
+			"keccak256": "0xcb3bcebc7d4195ba9f880c53e8247d88d2cfa2273090447076d9e9fd5e95ddce",
 			"license": "GPL-2.0-or-later",
 			"urls": [
-				"bzz-raw://b46770fd2d3080b6ee32ac902371553a9ded8509b093898fa0b79f7a0f30329e",
-				"dweb:/ipfs/QmWmiwyAJVi4fDbRa7BYTcNi26DzGqEo21161RxoqrC3cP"
+				"bzz-raw://f15c0b4b5c1dbaa4677a4ea06d46691905bf5caaa2e56146cd9ad2cfc74b9017",
+				"dweb:/ipfs/QmSeSQ3Vn147NiRNC9F9sWQYTcnXuxBxssLVQGmP5js13n"
 			]
 		},
 		"ribbonVault.sol": {
-			"keccak256": "0x4c3789d3780bd239312e6654dbc7c8788d042604612306f18a44725a8f3acea8",
+			"keccak256": "0xdc817737173861265b167c2e8b59160783f9109b2e81987d7bc0bc368d7d0d06",
 			"license": "GPL-2.0-or-later",
 			"urls": [
-				"bzz-raw://e93e2764c129d423582b1f61fa703801986a74a71f2745bd49c7cbb8bdf0f91e",
-				"dweb:/ipfs/QmeX3qKQbig7TXDfCumqjbSKQsWMs4aRbBc2cdtmTgb6fy"
+				"bzz-raw://7621e0501e83db58fd13aeda428fa9ddb044d6e22c84465658349d71ed0fc8d2",
+				"dweb:/ipfs/QmZjYTAn3r8cG2vwkQ3zEm8veYR7CLcg2ADfmCcELDXUj2"
 			]
 		}
 	},
