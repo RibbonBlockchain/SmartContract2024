@@ -31,7 +31,7 @@ contract points is ERC20,Ownable{
     }
 
     /*//////////////////////////////////////////////////////////////////////////
-                         USER-FACING NON-CONSTAN FUNCTIONS
+                         PUBLIC FUNCTIONS
     //////////////////////////////////////////////////////////////////////////*/
 
      /// @dev used to set vault admin address
