@@ -38,7 +38,12 @@ Its not compatible with:
 Clone the contest repository:
 
 ```
-git clone https://github.com/
+git clone https://github.com/RibbonBlockchain/SmartContract2024.git
 cd 
 code .
+```
+To run tests:
+```
+ forge test -vvvv
+ 
 ```
